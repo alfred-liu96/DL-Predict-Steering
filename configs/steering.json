@@ -1,0 +1,15 @@
+{
+  "exp_name": "predict_steering_angle",
+
+  "file_path": "D:/workspace/datasets/uda_predict_steering_angle/data/interpolated.csv",
+  "test_percentage": 0.2,
+  "image_height": 640,
+  "image_width": 480,
+
+  "batch_size": 64,
+  "num_epochs": 10,
+  "learning_rate": 0.001,
+
+  "save_path": "pred_steering_model.h5",
+  "log_level": "DEBUG"
+}
